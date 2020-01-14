@@ -1,0 +1,17 @@
+pkgbase = bat-cat-bin
+	pkgdesc = A cat(1) clone with wings.
+	pkgver = 0.12.1
+	pkgrel = 1
+	url = https://github.com/sharkdp/bat
+	arch = x86_64
+	license = Apache
+	depends = gcc-libs
+	depends = zlib
+	provides = bat-cat
+	conflicts = bat-cat-git
+	options = !strip
+	source = https://github.com/sharkdp/bat/releases/download/v0.12.1/bat_0.12.1_amd64.deb
+	sha256sums = c02ca23add052009cde64746ff86e6da5765a89fd7494d380800250310180b23
+
+pkgname = bat-cat-bin
+
