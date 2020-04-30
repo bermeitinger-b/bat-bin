@@ -1,7 +1,7 @@
 # Maintainer: Bernhard Bermeitinger <bernhard.bermeitinger@gmail.com>
 
 pkgname=bat-cat-bin
-pkgver=0.13.0
+pkgver=0.15.0
 pkgrel=1
 pkgdesc='A cat(1) clone with wings.'
 arch=('x86_64')
@@ -13,7 +13,7 @@ provides=('bat-cat')
 conflicts=('bat-cat-git')
 options=('!strip')
 source=("https://github.com/sharkdp/bat/releases/download/v${pkgver}/bat_${pkgver}_amd64.deb")
-sha256sums=('70aa43695bb0fcf278999838d6b9e37356a170fea1cb866feaa927a1e709f3a0')
+sha256sums=('7b9ee04507c356c336ab4b5af088956255583d612cd5a6b87d4c7bec8fa1dc65')
 
 package() {
   # extract package data
