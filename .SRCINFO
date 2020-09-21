@@ -1,6 +1,6 @@
 pkgbase = bat-cat-bin
 	pkgdesc = A cat(1) clone with wings.
-	pkgver = 0.13.0
+	pkgver = 0.15.4
 	pkgrel = 1
 	url = https://github.com/sharkdp/bat
 	arch = x86_64
@@ -10,8 +10,8 @@ pkgbase = bat-cat-bin
 	provides = bat-cat
 	conflicts = bat-cat-git
 	options = !strip
-	source = https://github.com/sharkdp/bat/releases/download/v0.13.0/bat_0.13.0_amd64.deb
-	sha256sums = 70aa43695bb0fcf278999838d6b9e37356a170fea1cb866feaa927a1e709f3a0
+	source = https://github.com/sharkdp/bat/releases/download/v0.15.4/bat_0.15.4_amd64.deb
+	sha256sums = 66b5fa31e4946da9331824fba4b6a7076565fe83866f14562450a010a5112857
 
 pkgname = bat-cat-bin
 
